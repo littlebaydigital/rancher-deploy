@@ -15,5 +15,3 @@ RUN apt-get -yqq autoremove && \
 		rm -rf /var/lib/apt/lists/* /var/cache/* /tmp/* /var/tmp/*
 
 WORKDIR /workspace
-
-ENTRYPOINT ["/usr/local/bin/rancher"]
